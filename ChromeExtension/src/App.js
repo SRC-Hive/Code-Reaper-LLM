@@ -5,12 +5,15 @@ const App = () => {
   const handleClick = () => {
     console.log('Button clicked!');
     // Add code to run your script here
+
   };
 
   return (
-    <div>
-      <h1>Code Reaper LLM</h1>
-      <button onClick={handleClick}>Search Github</button>
+    <div className="container">
+      <h1 className="title">Code Reaper LLM</h1>
+      <button onClick={handleClick} className="search-button">
+        Search Github
+      </button>
     </div>
   );
 };

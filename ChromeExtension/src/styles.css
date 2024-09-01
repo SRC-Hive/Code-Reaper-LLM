@@ -1,42 +1,30 @@
-body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-}
-
-div {
+.container {
   width: 300px;
+  margin: 20px auto;
   padding: 20px;
-  border-radius: 8px;
-  background-color: #ffffff;
+  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-  color: #333;
-  font-size: 1.5em;
-  margin-bottom: 20px;
+  background-color: #f9f9f9;
   text-align: center;
 }
 
-button {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  border: none;
+.title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 16px;
   border-radius: 5px;
   background-color: #007bff;
-  color: #ffffff;
-  font-size: 1em;
+  color: #fff;
+  border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-button:hover {
+.search-button:hover {
   background-color: #0056b3;
-}
-
-button:active {
-  background-color: #003d7a;
 }

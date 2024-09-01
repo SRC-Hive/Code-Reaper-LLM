@@ -5,6 +5,11 @@ name = "pypi"
 
 [packages]
 langchain = "*"
+langchain-cohere = "*"
+python-dotenv = "*"
+pymilvus = "*"
+langchain-milvus = "*"
+langchain-openai = "*"
 
 [dev-packages]
 streamlit = "*"
